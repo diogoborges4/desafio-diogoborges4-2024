@@ -1,14 +1,20 @@
-# INSTALAR DEPENDENCIAS
+### INSTALAR DEPENDENCIAS
 
+```bash
 npm install
+```
 
-# EXECUTAR O CODIGO
+### EXECUTAR O CODIGO
 
+```bash
 node src/recintos-zoo.js
+```
 
-# EXECUTAR O TESTE
+### EXECUTAR O TESTE
 
+```bash
 npm test
+```
 
 ### RECINTOS EXISTENTES
 

@@ -97,18 +97,21 @@ class RecintosZoo {
     );
 
     if (!especieAnimal) {
+      console.log("Animal inválido");
       return {
         erro: "Animal inválido", // Define o erro como "Animal inválido"
         recintosViaveis: false, // Não há recintos viáveis
       };
     }
     if (animal && quantidade <= 0) {
+      console.log("Quantidade inválida");
       return {
         erro: "Quantidade inválida", // Verificando se a quantidade de animais é válida
         recintosViaveis: false,
       };
     }
     if (quantidade > 9) {
+      console.log("Não há recintos viável");
       return {
         erro: "Não há recinto viável", // Verificando se existem recistos suficientes para a quantidade de animais
         recintosViaveis: false,
